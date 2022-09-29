@@ -1,0 +1,199 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    padding: 10px;
+    background-image: url("../img/sfondo.png");
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main, footer {
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 2px 3px #666;
+}
+
+header a:link, header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(177, 177, 177);
+}
+
+hr {
+    opacity: 0;
+}
+
+strong {
+    color: #a82170;
+    font-weight: bold;
+}
+
+code {
+    background-color: #e1e5e6;
+    border: solid 1px #918f90;
+    border-radius: 8px;
+}
+
+ul, ol{
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* HEADER */
+header {
+    text-align: center;
+    background: linear-gradient(#009bc2, #0a7288);
+    padding: 25px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 3px #666;
+}
+
+header img, header p {
+    padding-bottom: 20px;
+}
+
+header ul {
+    list-style: none;
+}
+
+
+/* MAIN */
+main h1 {
+    padding-bottom: 20px;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+main p {
+    padding-bottom: 20px;
+}
+
+main a:link, main a:visited {
+    color: #009ccb;
+}
+
+main a:hover{
+    color: #ff2255;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+span {
+    color: #9da39f;
+}
+
+article ul, ol {
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+/* TABELLE */
+table {
+    text-align: center;
+    border-bottom: 2px solid #3366cc;
+    margin-bottom: 30px;
+}
+caption {
+    font-weight: 600;
+    font-style: italic;
+}
+
+thead tr th{
+    background-color: #3369c4;
+    padding: 15px;
+    border: 0.5px solid white;
+}
+
+tbody tr td{
+    padding: 15px;
+}
+tbody tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+
+/* FORM */
+#news {
+    background-color: #e0e1e2;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+input {
+    border-bottom: 1px dashed;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 5px
+}
+
+input[type=email]:focus {
+    border: 1px solid black;
+}
+
+button[type=submit] {
+    text-align: center;
+    color: white;
+    background-color: #3466cb;
+    border: 0px;
+    padding: 5px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside div {
+    background-color: #e5ddde;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+div a{
+    padding-bottom: 20px;
+}
+
+.categories {
+    margin-top: 20px;
+}
+
+.data{
+    text-align: right;
+    font-size: 13px ;
+    font-style: italic;
+}
+/* FOOTER */
+footer {
+    background: linear-gradient(#005466, #253c3e);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+footer address {
+    line-height: 150%;
+}
+
+footer a:link, footer a:visited {
+    color: #ff00fe;
+}
+
+footer a:hover {
+    color: #ff00a2;
+}
